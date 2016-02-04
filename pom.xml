@@ -25,13 +25,13 @@
     <version>34</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>commons-beanutils</groupId>
-  <artifactId>commons-beanutils</artifactId>
-  <version>1.9.3-SNAPSHOT</version>
+  <groupId>commons-beanutils-openbeans</groupId>
+  <artifactId>commons-beanutils-openbeans</artifactId>
+  <version>1.9.3-SNAPSHOT-OPENBEANS</version>
   <name>Apache Commons BeanUtils</name>
 
   <inceptionYear>2000</inceptionYear>
-  <description>Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.</description>
+  <description>Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection. Modified version using the OpenBeans library.</description>
 
   <url>http://commons.apache.org/proper/commons-beanutils/</url>
 
@@ -267,6 +267,10 @@
     <contributor>
       <name>Tommy Tynj&#228;</name>
       <email></email>
+    </contributor>
+    <contributor>
+    	<name>Jon Champagne</name>
+    	<email>jon@jchampagne.ca</email>
     </contributor>
   </contributors>
 
