@@ -16,8 +16,8 @@
  */
 package org.apache.commons.beanutils;
 
-import java.beans.IntrospectionException;
-import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.PropertyDescriptor;
 import java.lang.reflect.Method;
 import java.util.Locale;
 

@@ -195,7 +195,7 @@
  * But what happens in more sophisticated environments where you do not
  * necessarily know ahead of time which bean class you are going to be using,
  * or which property you want to retrieve or modify?  The Java language provides
- * classes like <code>java.beans.Introspector</code>, which can examine a Java
+ * classes like <code>com.googlecode.openbeans.Introspector</code>, which can examine a Java
  * class at runtime and identify for you the names of the property getter and
  * setter methods, plus the <em>Reflection</em> capabilities to dynamically call
  * such a method.  However, these APIs can be difficult to use, and expose the
@@ -1009,7 +1009,7 @@
  * <p>There are some subtleties  of this specification that can catch out the unwary:
  * <ul>
  * <li>A property can have only one set and one get method. Overloading is not allowed.</li>
- * <li>The <code>java.beans.Introspector</code> searches widely for a custom <em>BeanInfo</em>
+ * <li>The <code>com.googlecode.openbeans.Introspector</code> searches widely for a custom <em>BeanInfo</em>
  * class. If your class has the same name as another with a custom <em>BeanInfo</em>
  * (typically a java API class) then the <code>Introspector</code> may use that instead of
  * creating via reflection based on your class. If this happens, the only solution is to

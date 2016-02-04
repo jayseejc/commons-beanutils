@@ -18,8 +18,8 @@
 package org.apache.commons.beanutils;
 
 
-import java.beans.IntrospectionException;
-import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.PropertyDescriptor;
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
@@ -38,7 +38,7 @@ import java.lang.reflect.Modifier;
  * <p><code>set<strong>Property</strong>(String key, Object value)</code>,
  * <p>where <code><strong>Property</strong></code> must be replaced
  * by the name of the property.
- * @see java.beans.PropertyDescriptor
+ * @see com.googlecode.openbeans.PropertyDescriptor
  *
  * @version $Id$
  */

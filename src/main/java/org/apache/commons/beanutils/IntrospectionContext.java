@@ -16,7 +16,7 @@
  */
 package org.apache.commons.beanutils;
 
-import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.PropertyDescriptor;
 import java.util.Set;
 
 /**

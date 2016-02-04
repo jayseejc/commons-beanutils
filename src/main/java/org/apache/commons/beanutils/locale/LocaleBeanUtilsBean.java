@@ -18,8 +18,8 @@
 package org.apache.commons.beanutils.locale;
 
 
-import java.beans.IndexedPropertyDescriptor;
-import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.IndexedPropertyDescriptor;
+import com.googlecode.openbeans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Locale;
 

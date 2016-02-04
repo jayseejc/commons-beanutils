@@ -16,11 +16,11 @@
  */
 package org.apache.commons.beanutils;
 
-import java.beans.BeanInfo;
-import java.beans.IndexedPropertyDescriptor;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.BeanInfo;
+import com.googlecode.openbeans.IndexedPropertyDescriptor;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.Introspector;
+import com.googlecode.openbeans.PropertyDescriptor;
 import java.lang.reflect.Method;
 import java.util.List;
 
@@ -33,7 +33,7 @@ import org.apache.commons.logging.LogFactory;
  * </p>
  * <p>
  * This class implements a default bean introspection algorithm based on the JDK
- * classes in the <code>java.beans</code> package. It discovers properties
+ * classes in the <code>com.googlecode.openbeans</code> package. It discovers properties
  * conforming to the Java Beans specification.
  * </p>
  * <p>
@@ -67,7 +67,7 @@ public class DefaultBeanIntrospector implements BeanIntrospector {
 
     /**
      * Performs introspection of a specific Java class. This implementation uses
-     * the {@code java.beans.Introspector.getBeanInfo()} method to obtain
+     * the {@code com.googlecode.openbeans.Introspector.getBeanInfo()} method to obtain
      * all property descriptors for the current class and adds them to the
      * passed in introspection context.
      *

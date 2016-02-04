@@ -16,7 +16,7 @@
  */
 package org.apache.commons.beanutils;
 
-import java.beans.IntrospectionException;
+import com.googlecode.openbeans.IntrospectionException;
 
 /**
  * <p>
